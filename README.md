@@ -77,3 +77,6 @@ LEARNINGS:
 Diode Voltage Spike: A spike at switch-off was observed across the diode—likely due to parasitic effects.
 
 Importance of Driver IC: Driving the MOSFET without a proper driver resulted in distorted waveforms. A dedicated driver IC significantly improved switching clarity
+
+
+practical wavefroms attached in E2-B10 project report.pdf
