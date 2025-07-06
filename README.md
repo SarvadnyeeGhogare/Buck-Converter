@@ -2,7 +2,6 @@ GROUP - E2 B10
 
 BUCK CONVERTER
 
-
 This project focuses on the design, simulation, and hardware implementation of a Buck (step-down) DC-DC converter using the TL494 PWM controller IC.
 The main objective was to realize a functioning converter capable of delivering a regulated lower voltage output from a higher input supply, using pulse-width modulation (PWM) control and verify its operation through both simulation and hardware testing.
 
@@ -23,38 +22,35 @@ OVERVIEW:
 
 The following steps were carried out:
 
-
 MATLAB Simulink Simulation
 
 1.Designed and simulated the Buck converter topology using MATLAB Simulink.
 
 2.Verified key waveforms in Continuous Conduction Mode (CCM):
 
-Inductor current
+a.Inductor current
 
-Diode voltage
+b.Diode voltage
 
 3.Increased load resistance to observe Discontinuous Conduction Mode (DCM).
 
 
 HARDWARE IMPLEMENTATION:
 
-
 1.Built the Buck converter using discrete components and used TL494 as the PWM generator.
 
 2.Observed real-time waveforms on an oscilloscope to validate:
 
-Output voltage regulation
+a.Output voltage regulation
 
-Diode switching
+b.Diode switching
 
-Inductor current shape
+c.Inductor current shape
 
 3.Fine-tuned the duty cycle through TL494 to achieve the desired output voltage for different load conditions.
 
 
 PCB DESIGN:
-
 
 1.Designed a custom PCB layout tailored for the Buck converter circuit.
 
