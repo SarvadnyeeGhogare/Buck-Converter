@@ -61,3 +61,17 @@ PCB DESIGN:
 2.Soldered and tested the complete system on the fabricated PCB board to ensure reliable operation under various input and load conditions.
 
 
+CHALLENGES FACED:
+
+Soldering Issues: Precise soldering was required. Excess solder bridged copper traces, which had to be manually corrected.
+
+Driver Circuit Debugging: PWM output was distorted due to a faulty MOSFET driver. After replacing the IC and rechecking components, proper output was achieved.
+
+Overcurrent & Heating: During main PCB testing, the circuit drew excessive current and the output capacitor overheated above 18V.
+
+
+LEARNINGS:
+
+Diode Voltage Spike: A spike at switch-off was observed across the diode—likely due to parasitic effects.
+
+Importance of Driver IC: Driving the MOSFET without a proper driver resulted in distorted waveforms. A dedicated driver IC significantly improved switching clarity
