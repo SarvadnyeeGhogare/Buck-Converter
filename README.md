@@ -17,10 +17,13 @@ Switching Frequency : 15kHz
 
 Output Current : 1A
 
+
 OVERVIEW:
 
 
 The following steps were carried out:
+
+
 
 MATLAB Simulink Simulation
 
@@ -33,6 +36,7 @@ a.Inductor current
 b.Diode voltage
 
 3.Increased load resistance to observe Discontinuous Conduction Mode (DCM).
+
 
 
 HARDWARE IMPLEMENTATION:
@@ -50,11 +54,13 @@ c.Inductor current shape
 3.Fine-tuned the duty cycle through TL494 to achieve the desired output voltage for different load conditions.
 
 
+
 PCB DESIGN:
 
 1.Designed a custom PCB layout tailored for the Buck converter circuit.
 
 2.Soldered and tested the complete system on the fabricated PCB board to ensure reliable operation under various input and load conditions.
+
 
 
 CHALLENGES FACED:
